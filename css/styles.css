@@ -8,25 +8,24 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
-a {
+.link {
   text-decoration: none;
 }
-ul {
-  list-style-type: none;
-}
+
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
 }
+
 .span-header {
-  color: #2e2f42;
+  color: var(--headings-color);
 }
 .span-footer {
   color: #f4f4fd;
@@ -39,16 +38,24 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.list {
+  list-style: none;
+}
 .header-menu-link:hover,
 .header-menu-link:focus,
-.header-address-link:hover,
 .header-address-link:focus {
   color: #9747ff;
 }
+.header-address-link:hover,
+.header-address-link:active {
+  color: #404bbf;
+}
 .header-address-link {
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
+  color: ver(--main-color);
 }
 /*---------hero--------*/
 .hero {
@@ -60,13 +67,14 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .hero-button {
   font-family: inherit;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
@@ -80,11 +88,13 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--headings-color);
 }
 .descrip-list-descrip {
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 .section-title {
   font-size: 36px;
@@ -92,6 +102,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
 }
 .team {
   background-color: #f4f4fd;
@@ -118,6 +129,7 @@ ul {
   color: #f4f4fd;
 }
 .filters-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
