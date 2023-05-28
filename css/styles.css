@@ -3,11 +3,12 @@
   --main-color: #434455;
   --hover-color: #404bbf;
   --headings-color: #2e2f42;
+  --background-color: #ffffff;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
