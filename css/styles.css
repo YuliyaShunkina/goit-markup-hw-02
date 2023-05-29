@@ -118,8 +118,11 @@ body {
 }
 /*-----team-------*/
 
-.team-item {
+.team {
   background-color: #f4f4fd;
+}
+.team-item {
+  background-color: #ffffff;
 }
 .team-item-name {
   font-weight: 500;
