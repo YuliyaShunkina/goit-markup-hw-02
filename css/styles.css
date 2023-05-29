@@ -33,8 +33,7 @@ body {
 .header-menu-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -43,19 +42,20 @@ body {
 }
 .header-menu-link:hover,
 .header-menu-link:focus,
-.header-address-link:focus {
-  color: #9747ff;
+.header-menu-link:active {
+  color: #404bbf;
 }
 .header-address-link:hover,
-.header-address-link:active {
+.header-address-link:active,
+.header-address-link:focus {
   color: #404bbf;
 }
 .header-address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-color);
   font-style: normal;
-  color: ver(--main-color);
 }
 /*---------hero--------*/
 .hero {
@@ -79,8 +79,13 @@ body {
   cursor: pointer;
   color: #ffffff;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
+}
+/*---------descrip section------*/
+.descrip {
+  background-color: #ffffff;
 }
 
 .descrip-list-title {
@@ -94,6 +99,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+/*-------main activity section------*/
+
+.main-activity {
   background-color: #ffffff;
 }
 .section-title {
@@ -104,6 +113,7 @@ body {
   color: #2e2f42;
   text-align: center;
 }
+
 .team {
   background-color: #f4f4fd;
 }
@@ -119,6 +129,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/*------footer-------*/
+
 .footer {
   background-color: #2e2f42;
 }
@@ -128,6 +140,8 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+/*------portfolio-------*/
+
 .filters-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
